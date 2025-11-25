@@ -8,7 +8,7 @@ const page = () => {
     return (
         <div>
             <Navbar />
-            <div className="bg-black">
+            <div className="bg-black text-white">
                 <ContactUs />
                 <ContactDetails />
                 <MessageSection />

@@ -9,14 +9,14 @@ const page = () => {
     return (
         <div>
             <Navbar />
-            <div className="bg-black">
+            <div className="bg-black text-white">
                 <About />
                 <StorySection />
                 <WhoWeAreSection />
                 <MissionSection />
                 <QuickVoteFeature />
                 <div className="p-5">
- <Footer/>
+                    <Footer />
                 </div>
             </div>
         </div>

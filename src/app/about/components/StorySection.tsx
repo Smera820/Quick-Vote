@@ -3,9 +3,9 @@ import Image from 'next/image'
 
 function StorySection() {
     return (
-        <div className="p-4 md:p-8 lg:ml-5">
+        <div className="p-4 md:p-6 lg:ml-5">
             <div className="flex items-center gap-2 mb-4">
-                <h1 className="text-4xl font-bold">
+                <h1 className="text-4xl sm:text-4xl font-bold">
                     <span className='text-red-500'>Our </span>Story
                 </h1>
                 <div>

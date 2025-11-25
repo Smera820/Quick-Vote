@@ -73,7 +73,7 @@ const page = () => {
     return (
         <div>
             <Navbar />
-            <div className="bg-black">
+            <div className="bg-black text-white">
                 <Activities />
                 <FilterSection data={elections} />
                 <div className="p-5">

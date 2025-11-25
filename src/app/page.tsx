@@ -1,11 +1,7 @@
-import Navbar from "./components/Navbar";
-export default function Home() {
-  return (
-   <div>
-    <Navbar/>
-    Hello World
-   </div>
-  );
-}
+import { redirect } from "next/navigation"
 
+const page=()=>{
+  redirect("/home")
+}
+export default page
 
